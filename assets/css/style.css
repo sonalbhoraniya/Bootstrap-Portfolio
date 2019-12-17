@@ -45,6 +45,12 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
   /*
 
   ========================================
@@ -87,8 +93,8 @@
 
 .main-section  {
   background: #ffffff;
-  width: 960px; 
-  height: 475px; 
+  width: 90%; 
+  height: 70%; 
   border: 1px solid lightgray; 
   /* display: block;  */
   position: relative; 
@@ -103,13 +109,15 @@
   margin-top: 15px; 
   margin-right: 10px; 
   display: inline-block; 
-  float: left; 
+
 }
 
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   padding-left: 20px; 
   color: teal; 
+  width: 100%; 
+  margin-top: 20px;
 }
 
 .greyborder {
@@ -121,9 +129,9 @@ h2 {
 p{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;  
-  margin: 30px 50px 0px 20px; 
+  
   line-height: 24px;
-  padding-right: 20px; 
+   
 }
 
 .newfont {
@@ -175,7 +183,7 @@ a {
 */
 
 input[type=text], select, textarea {
-  width: 920px; /* Full width */
+  width: 90%; /* Full width */
   padding: 10px; 
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -213,7 +221,7 @@ label{
   
 .major-section  {
   background: #ffffff;
-  width: 960px; 
+  width: 90%; 
   height: 800px; 
   margin: 0 auto;  
   border: 1px solid lightgray; 
@@ -223,58 +231,41 @@ label{
 }
 
 .portfolio-pictures {
-  position: relative; 
+  align-content: center;
   width: 300px; 
   height: 200px; 
   margin-right: 40px;
   margin-bottom: 30px;  
   margin-top: 10px; 
+  position: relative; 
 }
 
-.container {
-  position: absolute; 
-  margin-left: 20px; 
-  display: grid; 
-  grid-template-columns: 1fr 1fr;
-}
+
 
 .picturetext{
   font-family: 'Assistant', sans-serif;
   width: 300px; 
   height: 50px; 
   background: teal; 
-  margin-left: 20px; 
-  margin-right: 20px; 
-  padding: 15px 20px 15px 100px; 
+  margin: 20px; 
+
+  padding-top: 15px ; 
   color: white;
   text-align: center; 
-  float: left; 
-  display: grid; 
-  grid-template-columns: 1fr 1fr;
+  position: absolute; 
+  bottom: 10px;
+  
+ 
 }
 
 
 
-.books {
-  position: relative;
-  top: 150px; 
-}
 
-.chemistry {
-  position: relative;
-  top: 150px; 
-}
-.frisbee {
-  position: relative;
-  top: 340px; 
-}
 
-.veganmeal {
-  position: relative;
-  top: 340px; 
-}
+/*
 
-.legal {
-  position: relative;
-  top: 530px; 
-}
+  ========================================
+  Grid Layout
+  ========================================
+
+*/
